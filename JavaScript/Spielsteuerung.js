@@ -348,7 +348,7 @@ class GameController {
         document.querySelector('#Titel').style.display = 'none';
         document.querySelector('#Interface').style.display = 'block'
         //this.levelManager.startLevel(startLevel, player); // Ebene starten
-        this.levelManager.startLevel('GeschichtsRaum', player)
+        this.levelManager.startLevel('MatheRaum', player)
         //this.riddleManager.startRiddle('sudokuLeicht')
         //this.riddleManager.showGuide('sudoku');
         //this.riddleManager.showChat('ki')
