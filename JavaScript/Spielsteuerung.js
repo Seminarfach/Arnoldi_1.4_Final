@@ -347,8 +347,8 @@ class GameController {
         document.querySelector('#Geräte').style.display = 'none';
         document.querySelector('#Titel').style.display = 'none';
         document.querySelector('#Interface').style.display = 'block'
-        //this.levelManager.startLevel(startLevel, player); // Ebene starten
-        this.levelManager.startLevel('EnglischRaum', player)
+        this.levelManager.startLevel(startLevel, player); // Ebene starten
+        //this.levelManager.startLevel('EnglischRaum', player)
         //this.riddleManager.startRiddle('sudokuLeicht')
         //this.riddleManager.showGuide('sudoku');
         //this.riddleManager.showChat('ki')
