@@ -246,7 +246,7 @@ export const GeschichtsRaumConfig = {
         position: { x: 0, y: 0 },
         image: (() => {
             const image = new Image();
-            image.src = './img2/Räume/Geschichte/VGGEschichtsraum.png';
+            image.src = './img2/Räume/Geschichte/VGGeschichtsraum.png';
             return image;
         })(),
     }),
